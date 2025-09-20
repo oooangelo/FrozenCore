@@ -1,0 +1,17 @@
+
+
+
+#C
+COLOR_BLUE = (180, 180, 255)
+COLOR_DARK_BLUE = (100, 100, 255)
+
+#M
+MENU_OPTION = ('NEW GAME',
+               'EXIT')
+
+#W
+WIN_WIDTH = 1280
+WIN_HEIGHT = 720
+
+
+
