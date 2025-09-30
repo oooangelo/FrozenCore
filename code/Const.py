@@ -1,12 +1,18 @@
 
 
 
+
+
 #C
 COLOR_BLUE = (180, 180, 255)
 COLOR_DARK_BLUE = (100, 100, 255)
+COLOR_BLACK = (0, 0, 0)
+COLOR_WHITE = (255, 255, 255)
+COLOR_PURPLE = (255, 0, 255)
 
 #M
-MENU_OPTION = ('NEW GAME',
+MENU_OPTION = ('SOLO - NEW GAME',
+               'CO-OP - NEW GAME',
                'EXIT')
 
 #W
