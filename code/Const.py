@@ -16,6 +16,8 @@ ENTITY_SPEED = {
     'Enemy2': 3,
     'Player1Shoot': 6,
     'Player2Shoot': 6,
+    'Enemy1Shoot' :3,
+    'Enemy2Shoot' :4,
 }
 
 ENTITY_HEALTH = {
@@ -26,10 +28,19 @@ ENTITY_HEALTH = {
     'Enemy2': 25,
     'Player1Shoot': 1,
     'Player2Shoot': 1,
+    'Enemy1Shoot': 1,
+    'Enemy2Shoot': 1,
 }
 
 
 EVENT_ENEMY = pygame.USEREVENT + 1
+
+ENTITY_SHOOT_DELAY = {
+    'Player1': 20,
+    'Player2': 15,
+    'Enemy1' : 200,
+    'Enemy2': 200,
+}
 
 #M
 MENU_OPTION = ('SOLO - NEW GAME',
