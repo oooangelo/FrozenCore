@@ -14,6 +14,8 @@ ENTITY_SPEED = {
     'Player2':4,
     'Enemy1': 2,
     'Enemy2': 3,
+    'Player1Shoot': 6,
+    'Player2Shoot': 6,
 }
 
 ENTITY_HEALTH = {
@@ -22,6 +24,8 @@ ENTITY_HEALTH = {
     'Player2':500,
     'Enemy1': 50,
     'Enemy2': 25,
+    'Player1Shoot': 1,
+    'Player2Shoot': 1,
 }
 
 
