@@ -31,8 +31,8 @@ ENTITY_HEALTH = {
     'level1bg0':42000,
     'level2bg0':42000,
     'level3bg0':42000,
-    'Player1':500,
-    'Player2':500,
+    'Player1':300,
+    'Player2':300,
     'Enemy1': 50,
     'Enemy2': 25,
     'Player1Shoot': 1,
@@ -43,6 +43,8 @@ ENTITY_HEALTH = {
 
 
 EVENT_ENEMY = pygame.USEREVENT + 1
+
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 
 ENTITY_SHOOT_DELAY = {
     'Player1': 20,
@@ -98,6 +100,12 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
 
 #S
 SPAWN_TIME = 500
+
+#T
+
+TIMEOUT_C = 100 # 1 segundo
+
+TIMEOUT_LEVEL = 30000 #30 segundos de fase
 
 #W
 WIN_WIDTH = 1280
