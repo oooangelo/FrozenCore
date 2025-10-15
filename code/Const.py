@@ -1,5 +1,9 @@
 import pygame
 
+#WINDOW
+WIN_WIDTH = 1280
+WIN_HEIGHT = 720
+
 #C
 C_BLUE = (180, 180, 255)
 C_DARK_BLUE = (100, 100, 255)
@@ -11,6 +15,7 @@ C_RED = (255, 20, 20)
 C_GREEN = (0, 128, 0)
 C_YELLOW = (255, 215, 0)
 C_PINK = (255, 0, 255)
+C_LIGHT_BLUE = (189, 255, 255)
 
 #E
 ENTITY_SPEED = {
@@ -84,6 +89,7 @@ ENTITY_SCORE = {
 #M
 MENU_OPTION = ('SOLO - NEW GAME',
                'CO-OP - NEW GAME',
+               'SCORE',
                'EXIT')
 
 #P
@@ -99,17 +105,29 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
                    'Player2': pygame.K_LCTRL, }
 
 #S
-SPAWN_TIME = 500
+SPAWN_TIME = 400
+
+SCORE_POSITION = {'Title' : (WIN_WIDTH/2, 50),
+                  'Namein' : (WIN_WIDTH/2, 90),
+                  'Label' : (WIN_WIDTH/2, 100),
+                  "Name" : (WIN_WIDTH/2, 120),
+                  0 : (WIN_WIDTH/2, 120),
+                  1 : (WIN_WIDTH/2, 150),
+                  2 : (WIN_WIDTH/2, 180),
+                  3 : (WIN_WIDTH/2, 210),
+                  4 : (WIN_WIDTH/2, 240),
+                  5 : (WIN_WIDTH/2, 270),
+                  6 : (WIN_WIDTH/2, 300),
+                  7 : (WIN_WIDTH/2, 330),
+                  8 : (WIN_WIDTH/2, 360),
+                  9 : (WIN_WIDTH/2, 390)
+}
 
 #T
 
 TIMEOUT_C = 100 # 1 segundo
 
-TIMEOUT_LEVEL = 30000 #30 segundos de fase
-
-#W
-WIN_WIDTH = 1280
-WIN_HEIGHT = 720
+TIMEOUT_LEVEL = 30000 #30 segundos de fase = 30000
 
 
 
