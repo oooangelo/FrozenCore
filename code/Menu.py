@@ -2,7 +2,8 @@ import pygame
 
 from pygame import Surface, Rect
 from pygame.font import Font
-from code.Const import WIN_WIDTH, C_BLUE, MENU_OPTION, C_DARK_BLUE, C_BLACK, C_PURPLE
+from code.Const import WIN_WIDTH, C_BLUE, MENU_OPTION, C_DARK_BLUE, C_BLACK, C_PURPLE, C_ORANGE
+
 
 class Menu:
 
@@ -23,6 +24,9 @@ class Menu:
 
             self.menu_text(110, 'Frozen', C_BLUE, ((WIN_WIDTH / 2), 100))
             self.menu_text(75, 'Core', C_BLUE, ((WIN_WIDTH / 2), 155))
+            self.menu_text(20, 'ctrl - shoot', C_ORANGE, (50, 700))
+            self.menu_text(20, 'w a s d - p2 move', C_ORANGE, (70, 680))
+            self.menu_text(20, 'arrow keys - p1 move', C_ORANGE, (83, 660))
 
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
