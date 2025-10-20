@@ -132,6 +132,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+DBScore
+setup.py
 
 # Spyder project settings
 .spyderproject
