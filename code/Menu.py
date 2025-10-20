@@ -1,9 +1,8 @@
 import pygame
+
 from pygame import Surface, Rect
 from pygame.font import Font
-
 from code.Const import WIN_WIDTH, C_BLUE, MENU_OPTION, C_DARK_BLUE, C_BLACK, C_PURPLE
-
 
 class Menu:
 
@@ -38,17 +37,20 @@ class Menu:
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     quit()
+
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_DOWN:
                         if menu_option < len(MENU_OPTION) - 1:
                             menu_option += 1
                         else:
                             menu_option =0
+
                     if event.key == pygame.K_UP:
                         if menu_option > 0:
                             menu_option -= 1
                         else:
                             menu_option = len(MENU_OPTION) - 1
+
                     if event.key == pygame.K_RETURN: #enter
                         return MENU_OPTION[menu_option]
 
